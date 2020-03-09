@@ -1,10 +1,10 @@
 // Code your solutions in this file
-function writecards(array, event) {
-    let newArray = [];
-    for (i=0; i < array.length;i++) {
-        newArray.push(`Thank you, ${array[i]}, for the wonderful ${event} gift!`);
+function writeCards(names, event) {
+    const cards = [];
+    for(let i = 0; i < names.length; i++){
+        cards.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
     };
-    return newArray;
+    return cards;
 };
 
 function countDown(number) {
