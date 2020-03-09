@@ -1,3 +1,4 @@
+// Code your solutions in this file
 function writecards(array, event) {
     let newArray = [];
     for (i=0; i < array.length;i++) {
